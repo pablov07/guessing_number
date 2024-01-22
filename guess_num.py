@@ -22,7 +22,7 @@ while True:
     #User guessed correctly!
     if guess == number:
         print(
-            f'YOU GUESSED CORRECTLY! THE NUMBER WAS {number} AND YOU DID IT IN {CHANCES} ATTEMPTS!')
+            f'YOU GUESSED CORRECTLY! THE NUMBER WAS {number} AND YOU DID IT IN {CHANCES} ATTEMPT(S)!')
         break
 
     #Guess was low and asked to attempt again
