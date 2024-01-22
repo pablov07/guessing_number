@@ -27,12 +27,12 @@ while True:
 
     #Guess was low and asked to attempt again
     if guess < number:
-        print(f"Guess was low. Guess again. (Attempt: {CHANCES+1})", guess)
+        print(f"Guess was low. (Attempt: {CHANCES+1})", guess)
         CHANCES += 1
 
     #Guess was high and asked to attempt again
     else:
-        print(f"Guess was high. Guess again. (Attempt: {CHANCES+1})", guess)
+        print(f"Guess was high. (Attempt: {CHANCES+1})", guess)
         CHANCES += 1
 
     #Limited attempts to 3 and quits program
